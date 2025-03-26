@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNO🔰ZoneMovie</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('cine-fondo.jpg') no-repeat center center/cover;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            position: relative;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            position: relative;
+            z-index: 2;
+        }
+        .header {
+            background: black;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: gold;
+            border-top: 5px solid red;
+            border-bottom: 5px solid red;
+        }
+        .subtext {
+            font-size: 18px;
+            margin-top: 10px;
+            background: red;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .price {
+            font-size: 50px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: yellow;
+        }
+        .button {
+            display: inline-block;
+            background: gold;
+            color: black;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+        }
+        .highlight {
+            font-size: 30px;
+            font-weight: bold;
+            background: black;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+            background: orange;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .curtains {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            background: url('cortinas.png') no-repeat center top/cover;
+            z-index: 1;
+        }
+        .character {
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="curtains"></div>
+    <div class="container">
+        <div class="header">DISFRUTA DE LA PLATAFORMA<br>TODO EN UNO</div>
+        <p class="subtext">TODO TU CONTENIDO FAVORITO</p>
+        <p class="subtext">DISFRUTA EN FULL HD</p>
+        <p class="price">S/15 MENSUAL</p>
+        <div class="highlight">No pagues más<br>Prueba primero y paga después</div>
+        <a href="https://wa.me/51999999999?text=Hola%2C+quiero+adquirir+TNO🔰ZoneMovie" class="button">Comprar ahora</a>
+        <p class="footer">Utilízalo hasta en 3 dispositivos en simultáneo</p>
+    </div>
+    <img src="personaje.png" alt="Personaje" class="character">
+</body>
+</html>
